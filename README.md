@@ -1,8 +1,10 @@
 此れはlibcなしの「こんにちは、世界」のデモです。\
 Linux、FreeBSD、OpenBSD、NetBSD、及びmacOSで実行出来ますが、IntelやAMD CPUが必須に成ります。
 
+This is a libc-less "hello, world" demo.\
+It runs on Linux, FreeBSD, OpenBSD, NetBSD, and macOS, but requires an Intel or AMD CPU.
+
 ```sh
-make
 $ cc -nostdlib -static -masm=intel -o main main.c
 $ ls -thal main
 -rwxr-xr-x  1 suwako suwako  1.6K 12月 15 15:57 main
