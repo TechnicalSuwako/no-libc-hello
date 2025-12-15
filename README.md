@@ -9,7 +9,7 @@ This is a libc-less "hello, world" demo.
 | Linux   | AArch64 | 〇   | 〇         |
 | Linux   | RISC-V  | 〇   | 〇         |
 | FreeBSD | x86-64  | 〇   | 〇         |
-| OpenBSD | x86-64  | ✕    | ✕          |
+| OpenBSD | x86-64  | ✕    | 〇         |
 | NetBSD  | x86-64  | 〇   | ✕          |
 | macOS   | x86-64  | 〇   | ✕          |
 | macOS   | AArch64 | 〇   | ✕          |
